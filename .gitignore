@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+*.local
+
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+e2e/test-results/
+e2e/playwright-report/
+
+# TypeScript
+*.tsbuildinfo
